@@ -1,6 +1,6 @@
 import React from "react";
 import SlackRsp from "../assets/SlackRsp.png";
-import WoocommerceRsp from "../assets/woocommerceRsp.png";
+import WoocommerceRsp from "../assets/WoocommerceRsp.png";
 import AmazonRsp from "../assets/AmazonRsp.png";
 import MicrosoftRsp from "../assets/MicrosoftRsp.png";
 import Image from "next/image";

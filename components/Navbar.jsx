@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Logo from "../assets/Logo.svg";
+import Logo from "../assets/logo.svg";
 import Hamburger from "../assets/Hamburger.svg";
 import Link from "next/link";
 

@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Logo from "../assets/Logo.svg";
+import Logo from "../assets/logo.svg";
 import FooterBG from "../assets/FooterBG.svg";
 import Facebook from "../assets/Facebook.svg";
 import Twitch from "../assets/Twitch.svg";
