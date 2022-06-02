@@ -28,7 +28,7 @@ export default function App() {
       >
         <div className="flex flex-col sm:flex-col sm:gap-6 gap-4 ">
           <h1 className="text-[36px] sm:text-[56px] sm:leading-[130%] font-extrabold text-center sm:text-left leading-[45px] sm:w-[100%]">
-            Let’s take a <br /> tour to{" "}
+            Let{"'"}s take a <br /> tour to
             <span className="text-[#FF6600]">Blockchain</span> Technology
           </h1>
           <p className="text-[14px] text-[#5B5B5B] text-center sm:text-left sm:w-[100%]  sm:text-[18px] ">
@@ -100,10 +100,10 @@ export default function App() {
           Our Interests
         </h1>
         <p className="text-[12px] text-[#5B5B5B] text-center sm:text-[20px] sm:w-[60%] sm:leading-[35px]  ">
-          It's the norm these days to lay out a roadmap that gives stakeholders
-          an indication of the direction that the project aspires to go.
-          Inspired by Elon Musk’s 2006 masterplan, these are our skeleton
-          ambitions.
+          It{"'"}s the norm these days to lay out a roadmap that gives
+          stakeholders an indication of the direction that the project aspires
+          to go. Inspired by Elon Musk{"'"}s 2006 masterplan, these are our
+          skeleton ambitions.
         </p>
         <CardInterest />
       </div>
@@ -120,7 +120,7 @@ export default function App() {
         <p className="text-[12px] text-[#5B5B5B] text-center ">
           anftw is a hallmark. The team members may change, but the quality of
           our project execution will not.An outstanding team can build a product
-          in any industry. Don’t be intimidated by incumbents.
+          in any industry. Don{"'"}t be intimidated by incumbents.
         </p>
 
         <button className="p-4 w-[50%] bg-[#FF6600] text-white rounded-[10px]  text-[16px] font-bold">
