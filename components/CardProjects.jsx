@@ -10,7 +10,7 @@ const CardProjects = () => {
     <div className="w-screen h-full flex flex-col sm:flex-row sm:justify-between sm:w-full  gap-4  p-4 ">
       {VectorCardProjects.map((e) => {
         return (
-          <div className="sm:flex sm:flex-col sm:gap-2">
+          <div className="sm:flex sm:flex-col sm:gap-2" key={e.id}>
             <div className="">{e.vector}</div>
 
             <h1 className=" font-semibold text-[24px] sm:text-[28px] sm:text-[#2B2B2B] sm:w-[80%]     ">
