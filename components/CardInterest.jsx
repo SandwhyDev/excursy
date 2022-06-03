@@ -50,7 +50,7 @@ const CardInterest = () => {
 
       {/* Card 3  */}
 
-      <div className="w-full  sm:bg-green-300 rounded-[6px] flex p-4 gap-4 sm:flex-col  sm:justify-between  sm:p-10 ">
+      <div className="w-full   rounded-[6px] flex p-4 gap-4 sm:flex-col  sm:justify-between  sm:p-10 ">
         <div className="w-[20%]   flex justify-end items-start sm:justify-start sm:items-end ">
           <Image src={IconGreen} />
         </div>
