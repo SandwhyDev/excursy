@@ -5,9 +5,8 @@ import Vector1 from "../assets/Vector1.svg";
 import Vector1Rsp from "../assets/Vector1Rsp.svg";
 import Vector2Rsp from "../assets/Vector2Rsp.png";
 import Vector2 from "../assets/Vector2.svg";
-import Vector5 from "../assets/Vector5.svg";
-import Vector6 from "../assets/Vector6.svg";
-import Vector7 from "../assets/Vector7.svg";
+import Vector4 from "../assets/Vector4.svg";
+import Vector4Rsp from "../assets/Vector4Rsp.png";
 import { IoIosArrowForward } from "react-icons/io";
 import Sponsor from "../components/Sponsor";
 import CountProject from "../components/CountProject";
@@ -15,6 +14,7 @@ import CardInterest from "../components/CardInterest";
 import Footer from "../components/Footer";
 import Heading from "../components/Head";
 import SponsorRsp from "../components/SponsorRsp";
+import CardCurrentProjects from "../components/CardCurrentProjects";
 export default function App() {
   return (
     <div className="w-screen min-h-screen flex flex-col bg-[#FAFAFA] font-manrope  ">
@@ -109,90 +109,44 @@ export default function App() {
       </div>
       {/* PAGE 4 */}
       <div
-        className="w-screen h-full flex flex-col gap-6  p-4 items-center "
+        className="w-screen h-full flex flex-col gap-6  p-4 items-center sm:h-screen sm:flex-row  sm:p-0 "
         id="values"
       >
-        <div className="  ">
-          <Image src={Vector2} />
+        <div className="w-[50%] h-auto hidden sm:flex  sm:items-center sm:justify-center   ">
+          <Image src={Vector4Rsp} />
         </div>
 
-        <h1 className="text-center font-extrabold text-[24px]">Our Values</h1>
-        <p className="text-[12px] text-[#5B5B5B] text-center ">
-          anftw is a hallmark. The team members may change, but the quality of
-          our project execution will not.An outstanding team can build a product
-          in any industry. Don{"'"}t be intimidated by incumbents.
-        </p>
+        <div className="w-full  h-full sm:hidden  ">
+          <Image src={Vector4} />
+        </div>
 
-        <button className="p-4 w-[50%] bg-[#FF6600] text-white rounded-[10px]  text-[16px] font-bold">
-          Read More
-        </button>
+        <div className=" sm:w-[50%] sm:flex sm:flex-col sm:gap-10    h-auto gap-4 flex flex-col mt-5 items-center sm:items-start   sm:pr-20 ">
+          <h1 className="text-center font-extrabold text-[24px] sm:text-left sm:text-[52px]">
+            Our Values
+          </h1>
+          <p className="text-[12px] text-[#5B5B5B] text-center sm:text-left sm:text-[23px] sm:w-[95%] ">
+            anftw is a hallmark. The team members may change, but the quality of
+            our project execution will not.An outstanding team can build a
+            product in any industry. Don{"'"}t be intimidated by incumbents.
+          </p>
+
+          <button className="p-4 w-[50%] bg-[#FF6600] text-white rounded-[10px]  text-[16px] font-bold">
+            Read More
+          </button>
+        </div>
       </div>
 
       {/* PAGE 5  */}
       <div
-        className="w-screen h-full flex flex-col gap-4  p-4 "
+        className="w-screen h-full flex flex-col gap-4 sm:h-screen   "
         id="currentProjects"
       >
-        <h1 className="text-center font-extrabold text-[24px] text-[#FF6600]">
+        <h1 className="text-center font-extrabold text-[24px] text-[#FF6600] sm:text-[52px] sm:text-[#2B2B2B] sm:font-extrabold">
           Current Projects
         </h1>
-        <div className="">
-          <Image src={Vector5} />
-        </div>
-
-        <h1 className=" font-semibold text-[24px] ">
-          Certified Great Expectations Love
-        </h1>
-
-        <p className="text-[12px] text-[#5B5B5B] ">
-          Certified Great Expectations Lover - To add value to An outstanding
-          team can build a product in any industry
-        </p>
-
-        <p className="text-[16px] font-semibold text-[#FF6600] text-left">
-          Learn More.
-        </p>
+        <CardCurrentProjects />
       </div>
 
-      {/* PAGE 6  */}
-      <div className="w-screen h-full flex flex-col gap-4  p-4 ">
-        <div className="">
-          <Image src={Vector6} />
-        </div>
-
-        <h1 className=" font-semibold text-[24px] ">
-          Certified Great Expectations Love
-        </h1>
-
-        <p className="text-[12px] text-[#5B5B5B] ">
-          Certified Great Expectations Lover - To add value to An outstanding
-          team can build a product in any industry
-        </p>
-
-        <p className="text-[16px] font-semibold text-[#FF6600] text-left">
-          Learn More.
-        </p>
-      </div>
-
-      {/* PAGE 7  */}
-      <div className="w-screen h-full flex flex-col gap-4  p-4 ">
-        <div className="">
-          <Image src={Vector7} />
-        </div>
-
-        <h1 className=" font-semibold text-[24px] ">
-          Certified Great Expectations Love
-        </h1>
-
-        <p className="text-[12px] text-[#5B5B5B] ">
-          Certified Great Expectations Lover - To add value to An outstanding
-          team can build a product in any industry
-        </p>
-
-        <p className="text-[16px] font-semibold text-[#FF6600] text-left">
-          Learn More.
-        </p>
-      </div>
       <Footer />
     </div>
   );
